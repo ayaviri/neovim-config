@@ -15,6 +15,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.scrolloff = 999 -- padding between cursor and top/bottom of window
 vim.opt.splitright = true -- prefer vsplitting to the right
+vim.opt.splitbelow = true -- prefer svsplitting down
 vim.opt.wrap = false -- don't wrap my text
 
 -- searching
