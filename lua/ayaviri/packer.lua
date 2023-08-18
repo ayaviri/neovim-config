@@ -13,12 +13,13 @@ return require('packer').startup(function(use)
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use "lukas-reineke/indent-blankline.nvim"
-
   use({
     "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
   })
 
+  use "szw/vim-maximizer"
+
+  use "almo7aya/openingh.nvim"
 
 end)

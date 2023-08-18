@@ -1,7 +1,7 @@
 -- essentials
 vim.g.mapleader = " "
 
-require("ayaviri") -- load my lua configs
+require("ayaviri")
 
 -- behavior
 vim.opt.grepprg = "rg --vimgrep --smart-case --no-heading" -- search with rg
