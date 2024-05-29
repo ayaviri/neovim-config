@@ -22,4 +22,6 @@ return require('packer').startup(function(use)
 
   use "almo7aya/openingh.nvim"
 
+  use "pavanbhat1999/figlet.nvim"
+
 end)
