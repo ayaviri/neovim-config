@@ -24,4 +24,6 @@ return require('packer').startup(function(use)
 
   use "pavanbhat1999/figlet.nvim"
 
+  use {"shortcuts/no-neck-pain.nvim", tag = "*" }
+
 end)

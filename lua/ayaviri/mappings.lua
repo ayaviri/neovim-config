@@ -52,3 +52,6 @@ mapper("v", "<leader>gf", ":OpenInGHFileLines<CR>")
 
 -- figlet.nvim
 mapper("n", "<leader>i", ":Fig ")
+
+-- no-neck-pain
+mapper("n", "<leader>n", ":NoNeckPain<CR>")

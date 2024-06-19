@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/joshua/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
   },
+  ["no-neck-pain.nvim"] = {
+    loaded = true,
+    path = "/Users/joshua/.local/share/nvim/site/pack/packer/start/no-neck-pain.nvim",
+    url = "https://github.com/shortcuts/no-neck-pain.nvim"
+  },
   ["openingh.nvim"] = {
     loaded = true,
     path = "/Users/joshua/.local/share/nvim/site/pack/packer/start/openingh.nvim",
