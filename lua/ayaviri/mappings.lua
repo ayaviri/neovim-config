@@ -2,7 +2,7 @@
 ---@param mode string
 ---@param key string
 ---@param result function | string
-local mapper = function(mode, key, result) vim.keymap.set(mode, key, result, { noremap = true, silent = true }) end
+local mapper = function(mode, key, result) vim.keymap.set(mode, key, result, { noremap = true }) end
 
 -- essentials
 mapper("i", "jj", "<Esc>")
@@ -13,6 +13,7 @@ mapper("n", "<leader>b", vim.cmd.Ex) -- open file explorer
 mapper("n", "<leader>a", "gg<S-v>G")
 mapper("n", "<leader>nl", ":nohl<CR>")
 mapper("n", "<leader-v>", "<C-v>") -- changing visual block mode keybinding
+mapper("v", "<leader>/", "<esc>/\\%V")
 
 -- terminal mode
 mapper("t", "jj", "<C-\\><C-n>")

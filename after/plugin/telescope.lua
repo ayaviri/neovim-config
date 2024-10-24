@@ -23,8 +23,9 @@ vim.keymap.set(
     {}
 )
 vim.keymap.set("n", "<leader>ht", builtin.help_tags, {})
+vim.keymap.set("n", "<leader>lp", builtin.resume, {})
 
 -- lsp stuff
 vim.keymap.set("n", "<leader>gd", builtin.lsp_definitions, {})
-vim.keymap.set("n", "<leader>gr", builtin.lsp_references, {})
-vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, {})
+vim.keymap.set("n", "<leader>re", builtin.lsp_references, {})
+vim.keymap.set("n", "<leader>ic", builtin.lsp_incoming_calls, {})
